@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WikipediaSearch</string>
+    <string name="search_hint">search wikipedia</string>
+
+    <string name="error_no_internet_acsess">You don\'t have internet access</string>
+    <string name="msg_check_network">Please check your network connection</string>
+    <string name="error_something_wrong">oops! something went wrong</string>
+    <string name="error_response_code">response code :</string>
+    <string name="msg_try_later">try after some time</string>
+</resources>

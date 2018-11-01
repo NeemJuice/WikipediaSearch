@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <in.nvm_abhinav_vutukuri.apps.android.wikipediasearch.MyAutoCompleteTextView
+        android:imeOptions="flagNoExtractUi"
+        android:id="@+id/autoCompleteTextView"
+        android:hint="@string/search_hint"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height"/>
+
+    <ProgressBar
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="@dimen/forty_dp"
+        android:layout_height="@dimen/height"
+        android:layout_alignEnd="@+id/autoCompleteTextView"
+        android:layout_alignTop="@+id/autoCompleteTextView"
+        android:layout_marginEnd="@dimen/thirty_dp"/>
+
+</RelativeLayout>
